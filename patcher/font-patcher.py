@@ -257,7 +257,7 @@ symbolsDeviconsRangeEnd = 0xE6C5
 symbolsFontAwesomeRangeStart = 0xF000
 symbolsFontAwesomeRangeEnd = 0xF295
 
-symbolsOcticonsRangeStart = 0xF000
+symbolsOcticonsRangeStart = 0x26A1
 symbolsOcticonsRangeEnd = 0xF0DB
 
 symbolsFontLinuxRangeStart = 0xF100
@@ -482,6 +482,14 @@ def copy_glyphs(sourceFont, sourceFontStart, sourceFontEnd, symbolFont, symbolFo
 
 #copy_glyphs(sourceFont, sourceFontOriginalStart, sourceFontOriginalEnd, symbols, symbolsOriginalRangeStart, symbolsOriginalRangeEnd)
 #copy_glyphs(sourceFont, sourceFontDeviconsStart, sourceFontDeviconsEnd, symbolsDevicons, symbolsDeviconsRangeStart, symbolsDeviconsRangeEnd)
+
+
+#consola_bold = fontforge.open("fonts-src/consolas_6/consolab.ttf")
+#consola_bold = fontforge.open("fonts-src/Hack-v2_020-ttf/Hack-Bold.ttf")
+#consola_bold = fontforge.open("fonts-src/dejavu-fonts-ttf-2.37/ttf/DejaVuSansMono-Bold.ttf")
+#consola_bold.em = sourceFont.em
+#omegaChar = 0x03a9 # a9 is OMEGA , b1 is alpha
+#copy_glyphs(sourceFont,omegaChar,omegaChar,consola_bold, omegaChar,omegaChar, True )
 
 if args.powerline:
     copy_glyphs(sourceFont, symbolsPowerlineRange1Start, symbolsPowerlineRange1End, powerlineSymbols, symbolsPowerlineRange1Start, symbolsPowerlineRange1End)
