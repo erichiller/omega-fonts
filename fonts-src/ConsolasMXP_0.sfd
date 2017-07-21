@@ -5,6 +5,7 @@ FamilyName: Consolas OMF
 Weight: Book
 Copyright: (c) 2016 Microsoft Corporation. All rights reserved.
 UComments: "Patched with 'Omega Fonts Patcher' (https://github.com/ryanoasis/nerd-fonts)"
+FontLog: "2017-07-21; EDH; Final Edition of MXP on/off chars"
 Version: 6.96
 ItalicAngle: 0
 UnderlinePosition: -482
@@ -16,14 +17,14 @@ sfntRevision: 0x0006f5c3
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 470 1602955805 30373]
+XUID: [1021 460 -1919937885 31337]
 StyleMap: 0x0040
 FSType: 8
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1069378218
-ModificationTime: 1481503554
+ModificationTime: 1500680410
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -9498,9 +9499,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 61376 16 17
+WinInfo: 61525 23 18
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning lookup 0 subtable" "Anchor-2" "'mark' Mark Positioning lookup 0 subtable" "Anchor-3" "'mark' Mark Positioning lookup 1 subtable" "Anchor-4" "'mark' Mark Positioning lookup 2 subtable" "Anchor-5" "Mark to base attachment lookup 3 subtable" "Anchor-6" "'mark' Mark Positioning lookup 4 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8" "'mark' Mark Positioning lookup 5 subtable" "Anchor-9" "'mark' Mark Positioning lookup 6 subtable" "Anchor-10" "'mark' Mark Positioning lookup 7 subtable" "Anchor-11" "Mark to base attachment lookup 8 subtable" "Anchor-12" "Mark to base attachment lookup 8 subtable" "Anchor-13" "'mark' Mark Positioning lookup 9 subtable" "Anchor-14" "'mark' Mark Positioning lookup 9 subtable" "Anchor-15" "'mkmk' Mark to Mark lookup 11 subtable" "Anchor-16" "'mkmk' Mark to Mark lookup 12 subtable"
-BeginChars: 66059 3087
+BeginChars: 66059 3088
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -11492,7 +11495,7 @@ EndChar
 
 StartChar: hyphen
 Encoding: 45 45 16
-AltUni2: 002010.ffffffff.0 0000ad.ffffffff.0
+AltUni2: 0000ad.ffffffff.0 002010.ffffffff.0
 Width: 1126
 GlyphClass: 2
 Flags: W
@@ -19276,8 +19279,41 @@ IUP[y]
 IUP[x]
 EIF
 EndTTInstrs
+AnchorPoint: "Anchor-14" 0 1700 basechar 0
+AnchorPoint: "Anchor-13" 1126 1700 basechar 0
+AnchorPoint: "Anchor-12" 563 0 basechar 0
+AnchorPoint: "Anchor-11" 563 0 basechar 0
+AnchorPoint: "Anchor-10" 510 0 basechar 0
+AnchorPoint: "Anchor-8" 950 1413 basechar 0
+AnchorPoint: "Anchor-7" 1126 -350 basechar 0
+AnchorPoint: "Anchor-6" 1126 1700 basechar 0
+AnchorPoint: "Anchor-5" 500 570 basechar 0
+AnchorPoint: "Anchor-4" 950 1413 basechar 0
+AnchorPoint: "Anchor-2" 493 -180 basechar 0
+AnchorPoint: "Anchor-1" 1101 1500 basechar 0
+AnchorPoint: "Anchor-0" 663 1500 basechar 0
 LayerCount: 2
 Fore
+SplineSet
+1051 1251 m 1,0,1
+ 914 1280 914 1280 815 1280 c 0,2,3
+ 580 1280 580 1280 580 1034 c 2,4,-1
+ 580 858 l 1,5,-1
+ 1020 858 l 1,6,-1
+ 1020 713 l 1,7,-1
+ 580 713 l 1,8,-1
+ 580 0 l 1,9,-1
+ 403 0 l 1,10,-1
+ 403 713 l 1,11,-1
+ 80 713 l 1,12,-1
+ 80 858 l 1,13,-1
+ 403 858 l 1,14,-1
+ 403 1024 l 2,15,16
+ 403 1425 403 1425 821 1425 c 0,17,18
+ 925 1425 925 1425 1051 1401 c 1,19,-1
+ 1051 1251 l 1,0,1
+0 1004 m 1024,20,-1
+EndSplineSet
 Validated: 1
 AlternateSubs2: "'ss06' Style Set 6 lookup 29 subtable" f.ss05
 Substitution2: "'ss05' Style Set 5 lookup 28 subtable" f.ss05
@@ -85346,7 +85382,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 2645 -1 N 1 0 0 1 17 0 2
+Refer: 2645 -1 N 1 0 0 1 82 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -86653,44 +86690,49 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--474.850585938 -72 m 1,0,-1
- -645.850585938 166.21875 l 0,1,-1
- -741 332 l 0,2,-1
- -801 582 l 1,3,-1
- -781 797 l 0,4,-1
- -736 1072 l 0,5,-1
- -626 1322 l 24,6,-1
- -341 1497 l 0,7,8
- -92 1520 -92 1520 29 1517 c 0,9,10
- 253 1511 253 1511 354 1474.5 c 128,-1,11
- 455 1438 455 1438 564 1322 c 0,12,13
- 627 1255 627 1255 680.825195312 1094.265625 c 0,14,15
- 728 953 728 953 722.149414062 810.4375 c 0,16,17
- 707 487 707 487 672.274414062 395.90625 c 0,18,19
- 670 390 670 390 485.599609375 -72 c 1,20,-1
- 725 -72 l 1,21,-1
- 725 -305 l 1,22,-1
- 114 -305 l 1,23,-1
- 109.399414062 -89.71875 l 1,24,25
- 278 -8 278 -8 299.637695312 54.65625 c 0,26,27
- 357 214 357 214 386.5625 349.421875 c 0,28,29
- 439 587 439 587 442.849609375 602.625 c 0,30,31
- 464 692 464 692 459.950195312 801.6875 c 0,32,33
- 453 1016 453 1016 404 1082 c 0,34,35
- 295 1228 295 1228 254 1247 c 0,36,37
- 205 1270 205 1270 151.110351562 1288.88574219 c 0,38,39
- 92 1309 92 1309 -115.125 1303.328125 c 0,40,41
- -270 1299 -270 1299 -321 1257 c 0,42,43
- -401 1172 l 0,44,45
- -492 1010 -492 1010 -511 942 c 0,46,47
- -581 697 -581 697 -522.600585938 317.625 c 0,48,-1
- -410.725585938 166.21875 l 0,49,50
- -304 36 -304 36 -141.400390625 -72 c 1,51,-1
- -141 -305 l 1,52,-1
- -766 -305 l 1,53,-1
- -761.275390625 -72 l 1,54,-1
- -474.850585938 -72 l 1,0,-1
+639 0 m 1,0,-1
+ 639 170 l 1,1,2
+ 693 207 693 207 729 258.5 c 128,-1,3
+ 765 310 765 310 787.5 374.5 c 128,-1,4
+ 810 439 810 439 819.5 515 c 128,-1,5
+ 829 591 829 591 829 678 c 0,6,7
+ 829 770 829 770 816 848.5 c 128,-1,8
+ 803 927 803 927 772.5 984 c 128,-1,9
+ 742 1041 742 1041 692 1073.5 c 128,-1,10
+ 642 1106 642 1106 567 1106 c 0,11,12
+ 495 1106 495 1106 444 1076 c 128,-1,13
+ 393 1046 393 1046 360 990.5 c 128,-1,14
+ 327 935 327 935 312 857 c 128,-1,15
+ 297 779 297 779 297 684 c 0,16,17
+ 297 596 297 596 304.5 521.5 c 128,-1,18
+ 312 447 312 447 333.5 384 c 128,-1,19
+ 355 321 355 321 393 268.5 c 128,-1,20
+ 431 216 431 216 492 172 c 1,21,-1
+ 492 0 l 1,22,-1
+ 35 0 l 1,23,-1
+ 35 180 l 1,24,-1
+ 246 180 l 1,25,26
+ 196 214 196 214 157 267 c 128,-1,27
+ 118 320 118 320 91.5 386 c 128,-1,28
+ 65 452 65 452 51 527.5 c 128,-1,29
+ 37 603 37 603 37 682 c 0,30,31
+ 37 839 37 839 78.5 959.5 c 128,-1,32
+ 120 1080 120 1080 192 1162 c 128,-1,33
+ 264 1244 264 1244 361.5 1286.5 c 128,-1,34
+ 459 1329 459 1329 571 1329 c 0,35,36
+ 692 1329 692 1329 788.5 1289 c 128,-1,37
+ 885 1249 885 1249 952 1170.5 c 128,-1,38
+ 1019 1092 1019 1092 1055 974 c 128,-1,39
+ 1091 856 1091 856 1091 700 c 0,40,41
+ 1091 619 1091 619 1074.5 539.5 c 128,-1,42
+ 1058 460 1058 460 1028.5 390.5 c 128,-1,43
+ 999 321 999 321 959 266 c 128,-1,44
+ 919 211 919 211 872 180 c 1,45,-1
+ 1091 180 l 1,46,-1
+ 1091 0 l 1,47,-1
+ 639 0 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Iotadieresis
@@ -147035,7 +147077,7 @@ LayerCount: 2
 Fore
 Refer: 73 102 N 1 0 0 1 0 0 3
 Refer: 667 732 N 1 0 0 1 -62 -803 2
-Validated: 1
+Validated: 5
 EndChar
 
 StartChar: uni1D6F
@@ -149370,7 +149412,7 @@ LayerCount: 2
 Fore
 Refer: 73 102 N 1 0 0 1 0 0 3
 Refer: 3033 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 5
 EndChar
 
 StartChar: uni1D83
@@ -164798,10 +164840,20 @@ Encoding: 8040 8040 1855
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_3
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1937 8125 N 1 0 0 1 -674 -129 2
+Refer: 1937 8125 N 1 0 0 1 -609 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164810,10 +164862,20 @@ Encoding: 8041 8041 1856
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_3
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1994 8190 N 1 0 0 1 -674 -129 2
+Refer: 1994 8190 N 1 0 0 1 -609 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164822,10 +164884,22 @@ Encoding: 8042 8042 1857
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1951 8141 N 1 0 0 1 -854 -129 2
+Refer: 1951 8141 N 1 0 0 1 -789 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164834,10 +164908,22 @@ Encoding: 8043 8043 1858
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1964 8157 N 1 0 0 1 -854 -129 2
+Refer: 1964 8157 N 1 0 0 1 -789 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164846,10 +164932,22 @@ Encoding: 8044 8044 1859
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1952 8142 N 1 0 0 1 -749 -129 2
+Refer: 1952 8142 N 1 0 0 1 -684 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164858,10 +164956,22 @@ Encoding: 8045 8045 1860
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1965 8158 N 1 0 0 1 -749 -129 2
+Refer: 1965 8158 N 1 0 0 1 -684 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164870,10 +164980,22 @@ Encoding: 8046 8046 1861
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1953 8143 N 1 0 0 1 -675 -129 2
+Refer: 1953 8143 N 1 0 0 1 -610 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -164882,10 +165004,22 @@ Encoding: 8047 8047 1862
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1966 8159 N 1 0 0 1 -675 -129 2
+Refer: 1966 8159 N 1 0 0 1 -610 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -165766,11 +165900,21 @@ Encoding: 8104 8104 1917
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_3
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1937 8125 N 1 0 0 1 -674 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1937 8125 N 1 0 0 1 -609 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165779,11 +165923,21 @@ Encoding: 8105 8105 1918
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_3
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1994 8190 N 1 0 0 1 -674 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1994 8190 N 1 0 0 1 -609 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165792,11 +165946,23 @@ Encoding: 8106 8106 1919
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1951 8141 N 1 0 0 1 -854 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1951 8141 N 1 0 0 1 -789 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165805,11 +165971,23 @@ Encoding: 8107 8107 1920
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1964 8157 N 1 0 0 1 -854 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1964 8157 N 1 0 0 1 -789 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165818,11 +165996,23 @@ Encoding: 8108 8108 1921
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1952 8142 N 1 0 0 1 -749 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1952 8142 N 1 0 0 1 -684 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165831,11 +166021,23 @@ Encoding: 8109 8109 1922
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1965 8158 N 1 0 0 1 -749 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1965 8158 N 1 0 0 1 -684 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165844,11 +166046,23 @@ Encoding: 8110 8110 1923
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 50
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1953 8143 N 1 0 0 1 -675 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1953 8143 N 1 0 0 1 -610 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -165857,11 +166071,23 @@ Encoding: 8111 8111 1924
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 60
+ 66
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1966 8159 N 1 0 0 1 -675 -129 2
-Refer: 817 890 N 1 0 0 1 11 0 2
+Refer: 1966 8159 N 1 0 0 1 -610 -129 2
+Refer: 817 890 N 1 0 0 1 76 0 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni1FFC
 EndChar
 
@@ -168178,10 +168404,20 @@ Encoding: 8186 8186 1990
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_3
+ 1
+ 44
+ 65
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1982 8175 N 1 0 0 1 -715 -129 2
+Refer: 1982 8175 N 1 0 0 1 -650 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -168190,10 +168426,20 @@ Encoding: 8187 8187 1991
 Width: 1126
 GlyphClass: 2
 Flags: W
+TtInstrs:
+PUSHB_3
+ 1
+ 44
+ 65
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 1993 8189 N 1 0 0 1 -634 -129 2
+Refer: 1993 8189 N 1 0 0 1 -569 -129 2
+Validated: 1
 Substitution2: "Single Substitution lookup 39 subtable" uni03A9
 EndChar
 
@@ -168205,7 +168451,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
-Refer: 817 890 N 1 0 0 1 10 0 2
+Refer: 817 890 N 1 0 0 1 75 0 2
+Validated: 1
 EndChar
 
 StartChar: uni1FFD
@@ -180919,6 +181166,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 856 937 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: estimated
@@ -263254,81 +263502,140 @@ Refer: 666 731 N 1 0 0 1 -1 0 2
 Validated: 5
 EndChar
 
-StartChar: uniEFFF
-Encoding: 61439 61439 3085
-Width: 1126
-Flags: WO
-LayerCount: 2
-Fore
-SplineSet
-0 1517 m 0,0,1
- 224 1511 224 1511 339.5 1474.5 c 128,-1,2
- 455 1438 455 1438 564 1322 c 0,3,4
- 628 1255 628 1255 678 1104 c 0,5,6
- 723 969 723 969 723 840 c 0,7,8
- 723 825 723 825 722 810 c 0,9,10
- 707 487 707 487 672 396 c 0,11,12
- 670 390 670 390 486 -72 c 1,13,-1
- 725 -72 l 1,14,-1
- 725 -305 l 1,15,-1
- 114 -305 l 1,16,-1
- 109 -90 l 1,17,18
- 278 -8 278 -8 300 55 c 0,19,20
- 357 214 357 214 398 400.5 c 0,21,22
- 440 588 440 588 452 640 c 0,23,24
- 461 680 461 680 461 751 c 0,25,26
- 461 774 461 774 460 802 c 0,27,28
- 453 1016 453 1016 404 1082 c 0,29,30
- 295 1228 295 1228 250 1249 c 128,-1,31
- 205 1270 205 1270 151 1289 c 1024,32,33
-EndSplineSet
-EndChar
-
-StartChar: uniEFFE
-Encoding: 61438 61438 3086
-Width: 1126
+StartChar: MaxPowerShell_user
+Encoding: 61671 61671 3085
+Width: 2560
+VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
--474.850585938 -72 m 5,0,-1
- -645.850585938 166.21875 l 4,1,-1
- -741 332 l 4,2,-1
- -801 582 l 5,3,-1
- -781 797 l 4,4,-1
- -736 1072 l 4,5,-1
- -626 1322 l 28,6,-1
- -341 1497 l 4,7,8
- -92 1520 -92 1520 29 1517 c 4,9,10
- 253 1511 253 1511 354 1474.5 c 132,-1,11
- 455 1438 455 1438 564 1322 c 4,12,13
- 627 1255 627 1255 680.825195312 1094.265625 c 4,14,15
- 728 953 728 953 722.149414062 810.4375 c 4,16,17
- 707 487 707 487 672.274414062 395.90625 c 4,18,19
- 670 390 670 390 485.599609375 -72 c 5,20,-1
- 725 -72 l 5,21,-1
- 725 -305 l 5,22,-1
- 114 -305 l 5,23,-1
- 109.399414062 -89.71875 l 5,24,25
- 278 -8 278 -8 299.637695312 54.65625 c 4,26,27
- 357 214 357 214 386.5625 349.421875 c 4,28,29
- 439 587 439 587 442.849609375 602.625 c 4,30,31
- 464 692 464 692 459.950195312 801.6875 c 4,32,33
- 453 1016 453 1016 404 1082 c 4,34,35
- 295 1228 295 1228 254 1247 c 4,36,37
- 205 1270 205 1270 151.110351562 1288.88574219 c 4,38,39
- 92 1309 92 1309 -115.125 1303.328125 c 4,40,41
- -270 1299 -270 1299 -321 1257 c 4,42,43
- -401 1172 l 4,44,45
- -492 1010 -492 1010 -511 942 c 4,46,47
- -581 697 -581 697 -522.600585938 317.625 c 4,48,-1
- -410.725585938 166.21875 l 4,49,50
- -304 36 -304 36 -141.400390625 -72 c 5,51,-1
- -141 -305 l 5,52,-1
- -766 -305 l 5,53,-1
- -761.275390625 -72 l 5,54,-1
- -474.850585938 -72 l 5,0,-1
+934 1221 m 1,0,-1
+ 1499 999 l 1,1,-1
+ 1462 845 l 1,2,-1
+ 1218 823 l 1,3,-1
+ 1067 921 l 1,4,-1
+ 909 746 l 1,5,-1
+ 1206 612 l 1,6,-1
+ 1549 134 l 1,7,-1
+ 1592 -509 l 1,8,-1
+ 1628 -509 l 1,9,-1
+ 1701 117 l 1,10,-1
+ 1387 550 l 1,11,-1
+ 1867 343 l 1,12,-1
+ 2071 258 l 1,13,-1
+ 2037 89 l 1,14,-1
+ 1856 -97 l 1,15,-1
+ 1858 -526 l 1,16,-1
+ 1024 -526 l 1,17,-1
+ 1105 -46 l 1,18,-1
+ 563 696 l 1,19,-1
+ 934 1221 l 1,0,-1
+1962 503 m 1,20,-1
+ 2320 952 l 1,21,-1
+ 2456 784 l 1,22,-1
+ 2154 430 l 1,23,-1
+ 1962 503 l 1,20,-1
+1641 604 m 1,24,-1
+ 2057 1205 l 1,25,-1
+ 2238 1042 l 1,26,-1
+ 1843 533 l 1,27,-1
+ 1641 604 l 1,24,-1
+1968 1275 m 1,28,-1
+ 1532 637 l 1,29,-1
+ 1308 728 l 1,30,-1
+ 1554 751 l 1,31,-1
+ 1626 1060 l 1,32,-1
+ 1530 1097 l 1,33,-1
+ 1711 1385 l 1,34,-1
+ 1968 1275 l 1,28,-1
+1426 1138 m 1,35,-1
+ 1185 1233 l 1,36,-1
+ 1347 1500 l 1,37,-1
+ 1597 1419 l 1,38,-1
+ 1426 1138 l 1,35,-1
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: MaxPowerShell_2xLMargin
+Encoding: 61672 61672 3086
+Width: 2048
+VWidth: 0
+LayerCount: 2
+Fore
+Validated: 1
+Comment: "from https://thenounproject.com/term/protest/67892/"
+EndChar
+
+StartChar: MaxPowerShell_admin
+Encoding: 61674 61674 3087
+Width: 2560
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+2456 784 m 1,0,-1
+ 2306 603 l 1,1,-1
+ 2127 713 l 1,2,-1
+ 2320 952 l 1,3,-1
+ 2456 784 l 1,0,-1
+1968 1275 m 1,4,-1
+ 1747 952 l 1,5,-1
+ 1714 968 l 1,6,-1
+ 1903 851 l 1,7,-1
+ 1849 886 l 1,8,-1
+ 2057 1205 l 1,9,-1
+ 2238 1042 l 1,10,-1
+ 2031 772 l 1,11,-1
+ 2405 541 l 1,12,-1
+ 2251 542 l 1,13,-1
+ 2166 450 l 1,14,-1
+ 1962 503 l 1,15,-1
+ 1994 544 l 1,16,-1
+ 1825 545 l 1,17,-1
+ 2453 -323 l 1,18,-1
+ 953 694 l 1,19,-1
+ 1244 350 l 1,20,-1
+ 1549 134 l 1,21,-1
+ 1592 -509 l 1,22,-1
+ 1628 -509 l 1,23,-1
+ 1701 117 l 1,24,-1
+ 1601 254 l 1,25,-1
+ 1861 78 l 1,26,-1
+ 1856 -97 l 1,27,-1
+ 1857 -526 l 1,28,-1
+ 1025 -526 l 1,29,-1
+ 1105 -46 l 1,30,-1
+ 563 696 l 1,31,-1
+ 934 1221 l 1,32,-1
+ 1019 1186 l 1,33,-1
+ 1279 830 l 1,34,-1
+ 1218 823 l 1,35,-1
+ 1067 921 l 1,36,-1
+ 927 766 l 1,37,-1
+ 1304 796 l 1,38,-1
+ 776 1521 l 1,39,-1
+ 819 1521 l 1,40,-1
+ 1213 1277 l 1,41,-1
+ 1347 1500 l 1,42,-1
+ 1597 1419 l 1,43,-1
+ 1430 1144 l 1,44,-1
+ 1621 1026 l 1,45,-1
+ 1626 1060 l 1,46,-1
+ 1530 1097 l 1,47,-1
+ 1711 1385 l 1,48,-1
+ 1968 1275 l 1,4,-1
+810 1505 m 1,49,-1
+ 1338 780 l 1,50,-1
+ 909 746 l 1,51,-1
+ 2378 -250 l 1,52,-1
+ 1789 564 l 1,53,-1
+ 2340 559 l 1,54,-1
+ 810 1505 l 1,49,-1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
